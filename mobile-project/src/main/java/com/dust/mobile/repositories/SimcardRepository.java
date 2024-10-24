@@ -5,6 +5,8 @@
  */
 package com.dust.mobile.repositories;
 
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.dust.mobile.entities.Simcard;
@@ -15,6 +17,8 @@ import com.dust.mobile.entities.Simcard;
  * @apiNote Fonctionne avec l'annotation Spring boot application et l'argument scanBasePackages
  */
 public interface SimcardRepository extends JpaRepository<Simcard, String>{
+
+	
 	
 	
 

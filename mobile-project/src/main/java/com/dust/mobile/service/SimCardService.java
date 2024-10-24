@@ -24,7 +24,7 @@ public interface SimCardService{
 	
 	public void delSimcard(String sim);
 	
-	public Optional<Simcard> findById(String sim);
+	public Optional<Simcard> findAllById(String sim);
 	
 	
 	

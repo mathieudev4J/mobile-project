@@ -58,7 +58,7 @@ public class SimCardServiceImpl implements SimCardService {
 		 
 	}
 	@Override
-	public Optional<Simcard> findById(String sim) {
+	public Optional<Simcard> findAllById(String sim) {
 		// TODO Auto-generated method stub
 		
 		return simcardRepository.findById(sim);
